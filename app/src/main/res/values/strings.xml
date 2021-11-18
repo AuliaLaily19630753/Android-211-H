@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">211 Android H</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="no_handphone">No. Handphone</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jarak_km">Jarak (Km)</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
 </resources>
