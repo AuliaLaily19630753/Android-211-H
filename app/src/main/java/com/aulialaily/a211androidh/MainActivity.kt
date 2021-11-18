@@ -13,10 +13,16 @@ class MainActivity : AppCompatActivity() {
 
         val simpanButton = findViewById<Button>(R.id.simpanButton)
         val batalButton = findViewById<Button>(R.id.batalButton)
+
         val namaEditText = findViewById<EditText>(R.id.namaEditText)
+        val emailEditText = findViewById<EditText>(R.id.emailEditText)
+        val NoHandphoneEditText = findViewById<EditText>(R.id.No_HandphoneEditText)
+        val tanggalahirlEditText = findViewById<EditText>(R.id.tanggallahirEditText)
+        val jarakEditText = findViewById<EditText>(R.id.jarakEditText)
 
         simpanButton.setOnClickListener {
-            Toast.makeText( this,"Hai", Toast.LENGTH_SHORT).show()
+            val nama = namaEditText.toString()
+            Toast.makeText( this,"Hai $nama", Toast.LENGTH_SHORT).show()
         }
 
         batalButton.setOnClickListener {
